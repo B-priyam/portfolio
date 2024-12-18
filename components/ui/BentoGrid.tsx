@@ -6,7 +6,7 @@ import Lottie from "react-lottie";
 import { cn } from "@/utils/cn";
 
 import { BackgroundGradientAnimation } from "./gradientBg";
-import { GlobeDemo } from "./GridGlobe";
+// import { GlobeDemo } from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 
