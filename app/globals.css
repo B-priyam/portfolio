@@ -85,6 +85,6 @@ body::-webkit-scrollbar{
 
 @layer utilities {
   .heading {
-    @apply font-bold text-4xl md:text-5xl text-center dark:text-secondary;
+    @apply font-bold text-4xl md:text-5xl text-center text-secondary ;
   }
 }
