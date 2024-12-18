@@ -33,7 +33,7 @@ export const TextGenerateEffect = ({
             <motion.span
               key={word + index}
               className={`${
-                index > 3 ? "text-purple" : "dark:text-white text-black"
+                index > 3 ? "text-purple" : "dark:text-white heading"
               } opacity-0`}
             >
               {word}{" "}
