@@ -72,6 +72,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    displayName: "Swift Share",
     title: "Swift Share - online file sharing platform",
     des: "A secure online platform for effortless file sharing, enabling users to upload, store, and share files instantly across devices.",
     img: "/swiftshare.png",
@@ -86,6 +87,7 @@ export const projects = [
   },
   {
     id: 2,
+    displayName: "Realtime Board",
     title:
       "Realtime Board - Emphasizes collaboration and creativity in realtime",
     des: "An online collaborative whiteboard platform enabling teams to brainstorm, plan, and work together in realtime from anywhere",
@@ -101,19 +103,21 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
+    displayName: "AI Mock Interview",
+    title: "AI Mock Interview - Ace Your Interview with AI Assistance",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "/c.svg"],
-    link: "https://swiftshare.vercel.app",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/neon.png", "/c.svg"],
+    link: "https://ai-mock-interview-sepia-seven.vercel.app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    displayName: "AI Resume Builder",
+    title: "AI Resume Builder - Craft the Perfect Resume with Smart Assistance",
+    des: "Create professional resumes effortlessly with our AI Resume Builder, featuring an intuitive drag-and-drop interface for seamless customization.",
+    img: "/ai-resume-builder.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/strapi.svg", "/c.svg"],
+    link: "https://ai-resume-builder-dusky-two.vercel.app",
   },
 ];
 
