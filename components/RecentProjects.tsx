@@ -20,7 +20,7 @@ const RecentProjects = () => {
             key={item.id}
             onClick={() => window.open(item.link, "_blank")}
           >
-            <PinContainer title={item.title} href={item.link}>
+            <PinContainer title={item.displayName} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
