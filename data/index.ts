@@ -106,7 +106,7 @@ export const projects = [
     displayName: "AI Mock Interview",
     title: "AI Mock Interview - Ace Your Interview with AI Assistance",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    img: "/ai-mock-interview.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/neon.png", "/c.svg"],
     link: "https://ai-mock-interview-sepia-seven.vercel.app",
   },
@@ -116,7 +116,7 @@ export const projects = [
     title: "AI Resume Builder - Craft the Perfect Resume with Smart Assistance",
     des: "Create professional resumes effortlessly with our AI Resume Builder, featuring an intuitive drag-and-drop interface for seamless customization.",
     img: "/ai-resume-builder.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/strapi.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vercel.svg", "/c.svg"],
     link: "https://ai-resume-builder-dusky-two.vercel.app",
   },
 ];
@@ -169,9 +169,9 @@ export const companies = [
   },
   {
     id: 3,
-    name: "VERCEL",
-    img: "/logo-vercel.png",
-    nameImg: "/hostName.svg",
+    name: "vercel",
+    img: "/vercel.svg",
+    nameImg: "/vercelName.png",
   },
   {
     id: 4,
