@@ -2,12 +2,7 @@
 import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
-import dynamic from "next/dynamic";
-// import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
-
-const CanvasRevealEffect = dynamic(() => import("./ui/CanvasRevealEffect"), {
-  ssr: false,
-});
+import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
@@ -37,11 +32,11 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-black"
-            colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-            ]}
+            containerClassName="bg-black-100"
+            // colors={[
+            //   [236, 72, 153],
+            //   [232, 121, 249],
+            // ]}
             dotSize={2}
           />
           {/* Radial gradient for the cute fade */}
@@ -56,8 +51,8 @@ const Approach = () => {
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600"
-            colors={[[125, 211, 252]]}
+            containerClassName="bg-sky-900"
+            // colors={[[125, 211, 252]]}
           />
         </Card>
       </div>
@@ -93,7 +88,7 @@ const Card = ({
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="h-full w-full absolute inset-0"
+            className="h-full w-full absolute inset-0 z-0"
           >
             {children}
           </motion.div>
