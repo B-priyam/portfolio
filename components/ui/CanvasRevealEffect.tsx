@@ -99,7 +99,7 @@ export function CanvasRevealEffect({
   return (
     <canvas
       ref={canvasRef}
-      className={`fixed inset-0 pointer-events-none ${containerClassName}`}
+      className={`inset-0 pointer-events-none ${containerClassName}`}
     />
   );
 }
